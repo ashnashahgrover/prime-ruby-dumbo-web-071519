@@ -1,6 +1,7 @@
 # Add  code here!
 
 def prime?(int)
-  
-  2:int 
+  for 2:int 
+    if int%i==0 
+      return true
   
