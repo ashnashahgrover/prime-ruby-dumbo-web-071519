@@ -11,3 +11,9 @@ def prime?(int)
   end 
   return true 
 end 
+
+def prime(int)
+ if int.abs==1 || int.abs==0 
+      return false
+  end 
+end 
