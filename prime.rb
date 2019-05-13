@@ -5,6 +5,8 @@ def prime?(int)
   for i in range
     if int.abs==1 || int.abs==0 
       return false
+    elsif int%i==0 
+      return false 
     end 
   end 
   return true 
