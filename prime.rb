@@ -12,8 +12,3 @@ def prime?(int)
   return true 
 end 
 
-def prime(int)
- if int.abs==1 || int.abs==0 
-      return false
-  end 
-end 
