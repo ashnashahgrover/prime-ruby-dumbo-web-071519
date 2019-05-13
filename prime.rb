@@ -2,7 +2,7 @@
 
 def prime?(int)
   range = 2..(int-1)
-  for 2:int 
+  for i in range  
     if int%i==0 
       return true
   
